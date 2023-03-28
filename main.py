@@ -1,6 +1,6 @@
 from functions import *
 
-# create chatbot 
+# create chatbot
 home_bot = create_bot('Jordan')
 
 # train all data
