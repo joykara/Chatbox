@@ -27,14 +27,14 @@ def custom_train(Bot, conversation):
 # the chatbot stays running unless a word is typed from the bye_list
 def start_chatbot(Bot):
     print('\033c')
-    print("Hello, I am Jordan. How can I help you")
-    bye_list = ["bye jordan", "bye", "good bye"]
+    print("Hello, I am Izuku. How can I help you")
+    bye_list = ["bye Izuku", "bye", "good bye"]
 
     while (True):
         user_input = input("me: ")
         if user_input.lower() in bye_list:
-            print("Jordan: Good bye and have a blessed day!")
+            print("Izuku: Good bye and have a blessed day!")
             break
 
         response = Bot.get_response(user_input)
-        print("Jordan:", response)
+        print("Izuku:", response)
