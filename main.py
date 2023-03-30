@@ -1,4 +1,4 @@
-from functions import *
+from function import *
 
 # create chatbot
 home_bot = create_bot('Jordan')
